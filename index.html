@@ -1,0 +1,119 @@
+<html>
+<head>
+    <title>star-war</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="src/styles.scss"/>
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Robots -->
+    <meta name="robots" content="noindex, nofollow">
+    <!-- Device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5">
+    <meta name="format-detection" content="telephone=no">
+    <!-- Title -->
+    <!-- Description -->
+    <meta name="description" content="My first portfolio.">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fanwood+Text:ital@0;1&family=Tenor+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+<script type="module" src="src/index.ts"></script>
+
+<main>
+    <section>
+        <div class="left">
+            <div class="logo">
+                <img data-slide="1" class="image active" src="assets/rebels.svg" alt="rebels">
+                <img data-slide="2" class="image" src="assets/empire.svg" alt="empire">
+                <img data-slide="3" class="image" src="assets/jedi.svg" alt="jedi">
+                <img data-slide="4" class="image petit" src="assets/republic.svg" alt="republic">
+                <img data-slide="5" class="image" src="assets/stormtrooper.svg" alt="stormtrooper">
+                <img data-slide="6" class="image" src="assets/sith.svg" alt="sith">
+            </div>
+            <div class="titles">
+                <h1 data-slide="1" class="active">Un nouvel espoir</h1>
+                <h1 data-slide="2">L'empire contre-attaque</h1>
+                <h1 data-slide="3">Le retour du jedi</h1>
+                <h1 data-slide="4">La menace fantôme</h1>
+                <h1 data-slide="5">L'attaque des clones</h1>
+                <h1 data-slide="6">La revanche des sith</h1>
+            </div>
+            <div class="descriptions">
+                <p data-slide="1" class="active">
+                    C'est le premier opus de la saga Star Wars par sa date de sortie, mais le quatrième selon l'ordre chronologique de l'histoire.
+                </p>
+                <p data-slide="2">
+                    La guerre entre le maléfique Empire galactique et son antagoniste, l'Alliance rebelle, bat son plein.
+                </p>
+                <p data-slide="3">
+                    Le maléfique Empire galactique construit une nouvelle station spatiale Étoile de la mort pour anéantir définitivement l'Alliance rebelle.
+                </p>
+                <p data-slide="4">
+                    Le jeune Anakin Skywalker et les Jedi Qui-Gon Jinn et Obi-Wan Kenobi on pour mission de sauver la planète Naboo et découvrir les motivations derrière un blocus imposé par la Fédération du Commerce, tout en faisant face à un mystérieux Sith appelé Dark Maul.
+                </p>
+                <p data-slide="5">
+                    Les Jedi tentent de protéger la République contre les Sith tout en enquêtant sur une armée de clones.
+                </p>
+                <p data-slide="6">
+                    La République est en guerre contre les Séparatistes et le jeune Anakin Skywalker est tourmenté par des visions. Le chancelier Palpatine devient de plus en plus puissant et les Jedi se retrouvent en danger.
+                </p>
+            </div>
+            <div class="years">
+                <div class="year-wp">
+                    <span data-slide="1">1977</span>
+                    <span data-slide="2">1980</span>
+                    <span data-slide="3">1983</span>
+                    <span data-slide="4">1999</span>
+                    <span data-slide="5">2002</span>
+                    <span data-slide="6">2005</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="images">
+                <div data-slide="1" class="image active" style="background-image: url(assets/episode4.png)"></div> 
+                <div data-slide="2" class="image right" style="background-image: url(assets/episode5.png)"></div> 
+                <div data-slide="3" class="image right" style="background-image: url(assets/episode6.png)"></div>
+                <div data-slide="4" class="image right" style="background-image: url(assets/episode1.jpg)"></div>
+                <div data-slide="5" class="image right" style="background-image: url(assets/episode2.jpg)"></div>
+                <div data-slide="6" class="image right" style="background-image: url(assets/episode3.jpg)"></div>
+            </div>
+        </div>
+    </section>
+
+    <nav>
+        <div class="actions">
+            <div class="left js-arrow-left">
+                <img src="assets/arrow-right.svg" alt="arrow-left">
+            </div>
+            <div class="right js-arrow-right">
+                <img src="assets/arrow-right.svg" alt="arrow-right">
+            </div> 
+        </div>
+        <ul class="stepper">
+            <li data-stepper="1" class="active"></li>
+            <li data-slide="2">
+                <div class="line"></div>
+            </li>
+            <li data-slide="3">
+                <div class="line"></div>
+            </li>
+            <li data-slide="4">
+                <div class="line"></div>
+            </li>
+            <li data-slide="5">
+                <div class="line"></div>
+            </li>
+            <li data-slide="6">
+                <div class="line"></div>
+            </li>
+        </ul>
+    </nav>
+</main>
+
+</body>
+</html>
